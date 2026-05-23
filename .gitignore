@@ -1,0 +1,38 @@
+node_modules/
+.env
+dist/
+
+---
+
+## 2. Initialize and Commit in VS Code
+
+<Sequence>
+
+  <Step subtitle="Shortcut: Ctrl + Shift + G" title="Open the Source Control Tab">
+    Look at the left-hand sidebar in VS Code and click on the **Source Control** icon (it looks like a branch with points). 
+  </Step>
+  <Step subtitle="Creates local Git folder" title="Initialize Repository">
+    Click the blue **"Initialize Repository"** button at the top of the panel. This creates a hidden `.git` folder in your project workspace.
+  </Step>
+  <Step subtitle="Prepares files for tracking" title="Stage Your Project Files">
+    You will see a long list of your files under the **Changes** section. Click the **`+` (plus sign)** icon next to the word "Changes" to stage all files at once. They will move up to "Staged Changes".
+  </Step>
+  <Step subtitle="Saves your progress locally" title="Commit Your Code">
+    In the text box at the top of the panel, type a meaningful message like `feat: initial library system commit`. Then, click the blue **"Commit"** button.
+  </Step>
+</Sequence>
+
+---
+
+## 3. Publish to GitHub
+Once your files are committed locally, it's time to send them to the cloud:
+
+1. Look back at the **Source Control** panel where you just committed. 
+2. You will now see a blue button that says **"Publish Branch"**. Click it.
+3. VS Code will show a dropdown menu at the top of your screen asking you to choose:
+   * **Publish to GitHub private repository**
+   * **Publish to GitHub public repository**
+4. Choose **Public repository** (since your evaluator needs to look at the link without permissions).
+5. If this is your first time, a popup will ask you to authorize VS Code to access your GitHub account. Click **Allow**, sign in through your browser, and confirm.
+
+VS Code will automatically create the repository on your GitHub profile, link your local files to it, and upload everything seamlessly. Once it finishes, a small success popup will give you a button to **"Open on GitHub"** where you can grab your link for your submission!
